@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: black;
+}
+
+/*Utils*/
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    background-color: black;
+
+    height: 80px;
+    line-height: 80px;
+    text-align: right;
+}
+
+button{
+    border-radius: 15px;
+    padding: 3px;
+    font-size: 18px; 
+    background-color: darkgray;
+    border: 0;
+    color: white;
+    cursor: pointer;  
+}
+
+main{
+    height: 100vh;
+    overflow-y: auto;
+}
+
+footer{
+    background-color: rgb(69, 69, 69);
+    height: 60px;
+}
+
+/*Users*/
+
+.user{
+    margin: 0 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.user .user-image{
+    flex: 0 0 200px;
+    padding: 3px;
+    min-height: 100px;
+    border: 3px dashed white;
+}
